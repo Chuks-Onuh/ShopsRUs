@@ -1,0 +1,15 @@
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ShopsRUs.Domain.deps.json
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ShopsRUs.Domain.runtimeconfig.json
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ShopsRUs.Domain.runtimeconfig.dev.json
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ShopsRUs.Domain.dll
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ref\ShopsRUs.Domain.dll
+C:\ShopsRUs\ShopsRUs.Domain\bin\Debug\net5.0\ShopsRUs.Domain.pdb
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.csproj.AssemblyReference.cache
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.AssemblyInfoInputs.cache
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.AssemblyInfo.cs
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.csproj.CoreCompileInputs.cache
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.dll
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ref\ShopsRUs.Domain.dll
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.pdb
+C:\ShopsRUs\ShopsRUs.Domain\obj\Debug\net5.0\ShopsRUs.Domain.genruntimeconfig.cache
