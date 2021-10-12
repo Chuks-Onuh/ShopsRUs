@@ -4,6 +4,9 @@ ShopsRUs is an API that provide discount to their customers on all their web/mob
 It provides capabilities to calculate discounts, generate the total costs and generate the
 invoices for customers.
 #### These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+* Clone the repo to your local machine.
+* Navigate to the cloned file.
+* Cd to the root of the cloned file and open the .sln file
 
 
 
