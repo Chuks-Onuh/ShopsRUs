@@ -13,14 +13,14 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
 
         public void AddDiscountAsync(Discount discount) => Create(discount);
 
-        public async Task<PagedList<Discount>> Discounts(bool trackchanges, PaginatedParameters paginatedParameter)
+        public async Task<PagedList<Discount>> DiscountsAsync(bool trackchanges, PaginatedParameters paginatedParameter)
         {
             await Task.CompletedTask;
             return PagedList<Discount>.ToPagedList(FindAll(trackchanges)
                 .OrderBy(x => x.Id), paginatedParameter.PageNumber, paginatedParameter.PageSize);
         }
 
-        public async Task<Discount> GetDiscountByType(string discountType)
+        public async Task<Discount> GetDiscountByTypeAsync(string discountType)
         {
             var result = FindByCondition(x => x.Name.ToLower().Contains(discountType.ToLower()), false).FirstOrDefault();
 

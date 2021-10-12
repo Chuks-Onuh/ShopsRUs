@@ -23,11 +23,11 @@ namespace ShopsRUs.API.Controllers
         [HttpPost("{userid}")]
         public async Task<IActionResult> CalculateDiscount(int userid, [FromBody] IEnumerable<OrderDto> model)
         {
-            var user = await _Repository.AppUser.GetCustomerById(userid);
+            var user = await _Repository.AppUser.GetCustomerByIdAsync(userid);
 
-            var discount = await _Repository.Discount.GetDiscountByType(user.Role.Name);
+            var discount = await _Repository.Discount.GetDiscountByTypeAsync(user.Role.Name);
 
-            var products = await _Repository.Product.GetProducts(model.Select(x => x.ProductId), false);
+            var products = await _Repository.Product.GetProductsAsync(model.Select(x => x.ProductId), false);
 
             var result = products.Select(x => new Item
             {

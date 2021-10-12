@@ -6,6 +6,6 @@ namespace ShopsRUs.Infrastructure.Contracts.Interface
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<Product>> GetProducts(IEnumerable<int> productIds, bool trackChanges);
+        Task<IEnumerable<Product>> GetProductsAsync(IEnumerable<int> productIds, bool trackChanges);
     }
 }

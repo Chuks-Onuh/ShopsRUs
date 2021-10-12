@@ -14,7 +14,7 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
     {
         public ProductRepository(AppDbContext context) : base(context) { }
 
-        public async Task<IEnumerable<Product>> GetProducts(IEnumerable<int> productIds, bool trackChanges) =>
+        public async Task<IEnumerable<Product>> GetProductsAsync(IEnumerable<int> productIds, bool trackChanges) =>
             await FindAll(false).Where(x => productIds.Contains(x.Id)).ToListAsync();
 
         

@@ -25,7 +25,8 @@ namespace ShopsRUs.Domain.Configuration
                     LastName = "Olson",
                     Email = "barnesolson@ronbert.com",
                     PhoneNumber = "080465374833",
-                    RoleId = 2
+                    RoleId = 2,
+                    CreatedAt = Convert.ToDateTime("2020-02-04t13:24:59Z")
                 },
                 new AppUser
                 {
@@ -53,7 +54,8 @@ namespace ShopsRUs.Domain.Configuration
                     LastName = "Ola",
                     Email = "olatobi@gmail.com",
                     PhoneNumber = "09086574839",
-                    RoleId = 2
+                    RoleId = 2,
+                    CreatedAt = Convert.ToDateTime("2019-10-02t13:24:59Z")
                 },
                 new AppUser
                 {

@@ -13,23 +13,6 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
         public AppUserRepository(AppDbContext context) : base(context) { }
 
         public void AddCustomerAsync(AppUser customer) => Create(customer);
-        
-
-        public async Task<AppUser> GetCustomerById(int customerId)
-        {
-            var customer = await FindByCondition(x => x.Id == customerId, false).Include(x => x.Role).FirstOrDefaultAsync();
-            return customer;
-        }
-
-        public async Task<AppUser> GetCustomerByName(string customerName)
-        {
-            var customer = FindByCondition((x => x.FirstName.ToLower()
-                         .Contains(customerName.ToLower()) || x.LastName.ToLower()
-                         .Contains(customerName.ToLower())), false).FirstOrDefault();
-           
-            await Task.CompletedTask;
-            return customer;
-        }
 
         public async Task<PagedList<AppUser>> GetCustomersAsync(bool trackchanges, PaginatedParameters paginatedParameter)
         {
@@ -38,5 +21,20 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
                 .OrderBy(x => x.Id), paginatedParameter.PageNumber, paginatedParameter.PageSize);
         }
 
+        public async Task<AppUser> GetCustomerByIdAsync(int customerId)
+        {
+            var customer = await FindByCondition(x => x.Id == customerId, false).Include(x => x.Role).FirstOrDefaultAsync();
+            return customer;
+        }
+
+        public async Task<AppUser> GetCustomerByNameAsync(string customerName)
+        {
+            var customer = FindByCondition((x => x.FirstName.ToLower()
+                         .Contains(customerName.ToLower()) || x.LastName.ToLower()
+                         .Contains(customerName.ToLower())), false).FirstOrDefault();
+           
+            await Task.CompletedTask;
+            return customer;
+        }
     }
 }

@@ -11,7 +11,6 @@ namespace Sterling.Fusion.Community.Infrastructure.DataAccess.Repository
         private IAppUserRepository _AppUser;
         private IDiscountRepository _Discount;
         private IProductRepository _Product;
-        private IOrderRepository _Order;
         public RepositoryManager(AppDbContext dbcontext) => _DbContext = dbcontext;
 
 
@@ -45,16 +44,6 @@ namespace Sterling.Fusion.Community.Infrastructure.DataAccess.Repository
                     _Product = new ProductRepository(_DbContext);
 
                 return _Product;
-            }
-        }
-
-        public IOrderRepository Order
-        {
-            get
-            {
-                if (_Order == null)
-                    _Order = new OrderRepository(_DbContext);
-                return _Order;
             }
         }
         public async Task<int> SaveAsync() => await _DbContext.SaveChangesAsync();

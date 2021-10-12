@@ -7,7 +7,6 @@ namespace ShopsRUs.Infrastructure.Contracts.Interface
         IAppUserRepository AppUser { get; }
         IDiscountRepository Discount { get; }
         IProductRepository Product { get; }
-        IOrderRepository Order { get; }
         Task<int> SaveAsync();
     }
 }

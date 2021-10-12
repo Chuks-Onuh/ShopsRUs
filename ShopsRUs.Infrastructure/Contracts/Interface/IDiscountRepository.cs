@@ -6,8 +6,8 @@ namespace ShopsRUs.Infrastructure.Contracts.Interface
 {
     public interface IDiscountRepository
     {
-        Task<PagedList<Discount>> Discounts(bool trackchanges, PaginatedParameters paginatedParameter);
+        Task<PagedList<Discount>> DiscountsAsync(bool trackchanges, PaginatedParameters paginatedParameter);
         void AddDiscountAsync(Discount discount);
-        Task<Discount> GetDiscountByType(string discountType);
+        Task<Discount> GetDiscountByTypeAsync(string discountType);
     }
 }

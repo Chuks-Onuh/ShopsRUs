@@ -11,8 +11,6 @@ namespace ShopsRUs.API.DTOs
         public object Data { get; set; }
         public PaginationDto PaginationInfo { get; set; }
 
-        public override string ToString() => JsonConvert.SerializeObject(this);
-
         public ApiResponse(string message = null)
         {
             Succeeded = true;

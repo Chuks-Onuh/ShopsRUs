@@ -72,21 +72,21 @@ namespace ShopsRUs.API.Controllers
             if(customerId < 0)
                 return BadRequest(ApiResponse.Failure("", new List<string> { "Invalid customer Id" }));
 
-            var customer = await _Repository.AppUser.GetCustomerById(customerId);
+            var customer = await _Repository.AppUser.GetCustomerByIdAsync(customerId);
 
             if (customer == null)
-                return BadRequest(ApiResponse.Failure("No customer available"));
+                return BadRequest(ApiResponse.Failure($"Customer with Id: {customerId} is not available"));
 
             return Ok(ApiResponse.Success(customer, null));
         }
 
         [HttpGet("CustomerByName")]
-        public async Task<IActionResult> GetCustomerByName([FromQuery] string customerName)
+        public async Task<IActionResult> GetCustomerByName(string customerName)
         {
             if (string.IsNullOrEmpty(customerName))
                 return BadRequest(ApiResponse.Failure("Customer name was not provided"));
 
-            var customer = await _Repository.AppUser.GetCustomerByName(customerName);
+            var customer = await _Repository.AppUser.GetCustomerByNameAsync(customerName);
 
             if (customer == null)
                 return BadRequest(ApiResponse.Failure("", new List<string> { "Customer not found" }));

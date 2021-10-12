@@ -13,7 +13,9 @@ namespace ShopsRUs.API.Services
             var amount = products
                         .Where(x => x.Category.ToLower() != "groceries")
                         .Sum(x => x.Amount * x.Quantity);
+
             var regularDiscount = 0.0m;
+
             if (user.Role.Name.ToLower() == "customer")
             {
 
