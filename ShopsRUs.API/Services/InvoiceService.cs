@@ -16,6 +16,7 @@ namespace ShopsRUs.API.Services
             var regularDiscount = 0.0m;
             if (user.Role.Name.ToLower() == "customer")
             {
+
                 if (DateTime.Now.Year - user.CreatedAt.Year >= 2)
                 {
                     regularDiscount =  CalculatePercentageDiscount(amount, discount) + products
@@ -34,6 +35,7 @@ namespace ShopsRUs.API.Services
             regularDiscount =  CalculatePercentageDiscount(amount, discount) + products
                                .Where(x => x.Category.ToLower() == "groceries")
                                .Sum(x => x.Amount * x.Quantity);
+            
             return CalculateExtraDiscount(regularDiscount);
         }
 

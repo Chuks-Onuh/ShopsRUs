@@ -45,7 +45,7 @@ namespace ShopsRUs.API.Controllers
             return BadRequest(ApiResponse.Failure(""));
         }
 
-        [HttpGet("GetDiscounts")]
+        [HttpGet("Discounts")]
         public async Task<IActionResult> GetDiscounts([FromQuery] PaginatedParameters paginatedParameters)
         {
             var discounts = await _Repository.Discount.Discounts(false, paginatedParameters);
@@ -67,13 +67,13 @@ namespace ShopsRUs.API.Controllers
             return Ok(ApiResponse.Success(discounts, metadate));
         }
 
-        [HttpGet("GetDiscountByType")]
-        public async Task<IActionResult> GetDiscountByType([FromQuery] string discountName)
+        [HttpGet("DiscountByType")]
+        public async Task<IActionResult> GetDiscountByType([FromQuery] string discountType)
         {
-            if (string.IsNullOrEmpty(discountName))
+            if (string.IsNullOrEmpty(discountType))
                 return BadRequest(ApiResponse.Failure("Discount type was not provided"));
 
-            var discount = await _Repository.Discount.GetDiscountByType(discountName);
+            var discount = await _Repository.Discount.GetDiscountByType(discountType);
 
             if (discount == null)
                 return BadRequest(ApiResponse.Failure("Discount not found"));

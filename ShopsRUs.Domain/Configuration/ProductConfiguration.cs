@@ -65,6 +65,13 @@ namespace ShopsRUs.Domain.Configuration
                     Name = "Rods",
                     Category = "Building",
                     Amount = 150000.0m
+                },
+                new Product
+                {
+                    Id = 9,
+                    Name = "Beans",
+                    Category = "Groceries",
+                    Amount = 80.0m
                 });
         }
     }

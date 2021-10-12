@@ -7,7 +7,6 @@ using Microsoft.OpenApi.Models;
 using NLog;
 using ShopsRUs.API.Extensions;
 using System.IO;
-using System.Text.Json.Serialization;
 
 namespace ShopsRUs.API
 {
@@ -31,8 +30,7 @@ namespace ShopsRUs.API
             services.ConfigureRepositoryManager();
             services.AddAutoMapper(typeof(Startup));
 
-            services.AddControllers().AddJsonOptions(o => o.JsonSerializerOptions
-                .ReferenceHandler = ReferenceHandler.Preserve); 
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ShopsRUs.API", Version = "v1" });

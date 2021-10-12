@@ -21,14 +21,14 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
             return customer;
         }
 
-        public async Task<PagedList<AppUser>> GetCustomerByName(string customerName, PaginatedParameters paginatedParameters)
+        public async Task<AppUser> GetCustomerByName(string customerName)
         {
-            var result = FindByCondition((x => x.FirstName.ToLower()
+            var customer = FindByCondition((x => x.FirstName.ToLower()
                          .Contains(customerName.ToLower()) || x.LastName.ToLower()
-                         .Contains(customerName.ToLower())), false);
+                         .Contains(customerName.ToLower())), false).FirstOrDefault();
            
             await Task.CompletedTask;
-            return PagedList<AppUser>.ToPagedList(result, paginatedParameters.PageNumber, paginatedParameters.PageSize);
+            return customer;
         }
 
         public async Task<PagedList<AppUser>> GetCustomersAsync(bool trackchanges, PaginatedParameters paginatedParameter)
@@ -37,5 +37,6 @@ namespace ShopsRUs.Infrastructure.Contracts.Repository
             return PagedList<AppUser>.ToPagedList(FindAll(trackchanges)
                 .OrderBy(x => x.Id), paginatedParameter.PageNumber, paginatedParameter.PageSize);
         }
+
     }
 }

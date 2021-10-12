@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
 using ShopsRUs.API.DTOs;
 using ShopsRUs.Domain.Models;
 using ShopsRUs.Infrastructure.Contracts.Interface;
@@ -45,7 +44,7 @@ namespace ShopsRUs.API.Controllers
             return BadRequest(ApiResponse.Failure(""));
         }
 
-        [HttpGet("GetCustomers")]
+        [HttpGet("Customers")]
         public async Task<IActionResult> GetCustomers([FromQuery] PaginatedParameters paginatedParameters)
         {
             var customers = await _Repository.AppUser.GetCustomersAsync(false, paginatedParameters);
@@ -68,7 +67,7 @@ namespace ShopsRUs.API.Controllers
         }
 
         [HttpGet("CustomerById")]
-        public async Task<IActionResult> CustomerById(int customerId)
+        public async Task<ActionResult<AppUser>> CustomerById(int customerId)
         {
             if(customerId < 0)
                 return BadRequest(ApiResponse.Failure("", new List<string> { "Invalid customer Id" }));
@@ -81,28 +80,18 @@ namespace ShopsRUs.API.Controllers
             return Ok(ApiResponse.Success(customer, null));
         }
 
-        [HttpGet("GetCustomerByName")]
-        public async Task<IActionResult> GetCustomerByName([FromQuery] string customerName, [FromQuery] PaginatedParameters paginatedParameters)
+        [HttpGet("CustomerByName")]
+        public async Task<IActionResult> GetCustomerByName([FromQuery] string customerName)
         {
             if (string.IsNullOrEmpty(customerName))
                 return BadRequest(ApiResponse.Failure("Customer name was not provided"));
 
-            var customer = await _Repository.AppUser.GetCustomerByName(customerName, paginatedParameters);
+            var customer = await _Repository.AppUser.GetCustomerByName(customerName);
 
             if (customer == null)
                 return BadRequest(ApiResponse.Failure("", new List<string> { "Customer not found" }));
 
-            var metadate = new PaginationDto
-            {
-                TotalCount = customer.TotalCount,
-                HasNextPage = customer.HasNext,
-                HasPreviousPage = customer.HasPrevious,
-                TotalPages = customer.TotalPages,
-                Page = customer.CurrentPage,
-                PageSize = customer.PageSize
-
-            };
-            return Ok(ApiResponse.Success(customer, metadate));    
+            return Ok(ApiResponse.Success(customer, null));    
         }
     }
 }

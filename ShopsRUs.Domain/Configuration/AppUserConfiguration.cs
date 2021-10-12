@@ -17,7 +17,7 @@ namespace ShopsRUs.Domain.Configuration
                     LastName = "Doe",
                     Email = "johndoe@gmail.com",
                     PhoneNumber = "09045735473",
-                    RoleId = 1
+                    RoleId = 1,
                 },
                 new AppUser { 
                     Id = 2,
@@ -30,11 +30,11 @@ namespace ShopsRUs.Domain.Configuration
                 new AppUser
                 {
                     Id = 3,
-                    FirstName = "Chuks",
+                    FirstName = "Chuka",
                     LastName = "Moses",
-                    Email = "chuks@moses.com",
+                    Email = "chuka@moses.com",
                     PhoneNumber = "07046537833",
-                    RoleId = 2
+                    RoleId = 3
                 },
                 new AppUser
                 {
@@ -43,7 +43,8 @@ namespace ShopsRUs.Domain.Configuration
                     LastName = "Azabataram",
                     Email = "clement@gmail.com",
                     PhoneNumber = "08136374833",
-                    RoleId = 2
+                    RoleId = 3,
+                    CreatedAt = Convert.ToDateTime("2018-07-04t13:24:59Z")
                 },
                 new AppUser
                 {

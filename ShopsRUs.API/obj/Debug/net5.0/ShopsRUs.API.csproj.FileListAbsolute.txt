@@ -1,10 +1,3 @@
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.csproj.AssemblyReference.cache
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.AssemblyInfoInputs.cache
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.AssemblyInfo.cs
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.csproj.CoreCompileInputs.cache
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.MvcApplicationPartsAssemblyInfo.cs
-C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.MvcApplicationPartsAssemblyInfo.cache
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\nlog.config
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\appsettings.Development.json
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\appsettings.json
@@ -18,6 +11,8 @@ C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\ShopsRUs.API.pdb
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\AutoMapper.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Humanizer.dll
+C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -28,6 +23,8 @@ C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.d
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\NLog.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
@@ -54,6 +51,13 @@ C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\ShopsRUs.Domain.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\ShopsRUs.Infrastructure.dll
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\ShopsRUs.Infrastructure.pdb
 C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\ShopsRUs.Domain.pdb
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.csproj.AssemblyReference.cache
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.AssemblyInfoInputs.cache
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.AssemblyInfo.cs
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.csproj.CoreCompileInputs.cache
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.MvcApplicationPartsAssemblyInfo.cache
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\staticwebassets\ShopsRUs.API.StaticWebAssets.Manifest.cache
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\staticwebassets\ShopsRUs.API.StaticWebAssets.xml
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\scopedcss\bundle\ShopsRUs.API.styles.css
@@ -63,4 +67,3 @@ C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.dll
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ref\ShopsRUs.API.dll
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.pdb
 C:\ShopsRUs\ShopsRUs.API\obj\Debug\net5.0\ShopsRUs.API.genruntimeconfig.cache
-C:\ShopsRUs\ShopsRUs.API\bin\Debug\net5.0\Newtonsoft.Json.dll

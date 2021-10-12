@@ -9,6 +9,6 @@ namespace ShopsRUs.Infrastructure.Contracts.Interface
         Task<PagedList<AppUser>> GetCustomersAsync(bool trackchanges, PaginatedParameters paginatedParameter);
         void AddCustomerAsync(AppUser customer);
         Task<AppUser> GetCustomerById(int customerId);
-        Task<PagedList<AppUser>> GetCustomerByName(string customerName, PaginatedParameters paginatedParameters);
+        Task<AppUser> GetCustomerByName(string customerName);
     }
 }
