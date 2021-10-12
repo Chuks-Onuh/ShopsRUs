@@ -12,6 +12,7 @@ invoices for customers.
 
 ## Technologies used
 * C#.
-* Asp.Net Core Restful Api Framework.
+* Asp.Net Core Web API.
+* Rest Framework.
 * SQLite (Database).
 
