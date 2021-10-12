@@ -54,7 +54,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 657, DateTimeKind.Local).AddTicks(5096),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 597, DateTimeKind.Local).AddTicks(6036),
                             Email = "johndoe@gmail.com",
                             FirstName = "John",
                             LastName = "Doe",
@@ -64,7 +64,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 657, DateTimeKind.Local).AddTicks(5913),
+                            CreatedAt = new DateTime(2020, 2, 4, 14, 24, 59, 0, DateTimeKind.Local),
                             Email = "barnesolson@ronbert.com",
                             FirstName = "Barnes",
                             LastName = "Olson",
@@ -74,7 +74,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 657, DateTimeKind.Local).AddTicks(5916),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(8796),
                             Email = "chuka@moses.com",
                             FirstName = "Chuka",
                             LastName = "Moses",
@@ -94,7 +94,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4040),
+                            CreatedAt = new DateTime(2019, 10, 2, 14, 24, 59, 0, DateTimeKind.Local),
                             Email = "olatobi@gmail.com",
                             FirstName = "Tobi",
                             LastName = "Ola",
@@ -104,7 +104,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4052),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9011),
                             Email = "godwinjulieth@gmail.com",
                             FirstName = "Julieth",
                             LastName = "Godwin",
@@ -114,7 +114,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4054),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9013),
                             Email = "gabriel@benard.com",
                             FirstName = "Bernard",
                             LastName = "Gabriel",
@@ -124,7 +124,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4055),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9015),
                             Email = "godson@frank.com",
                             FirstName = "Frank",
                             LastName = "Godson",
@@ -134,7 +134,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4056),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9016),
                             Email = "eunice@beauty.com",
                             FirstName = "Eunice",
                             LastName = "Beauty",
@@ -144,7 +144,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4057),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9018),
                             Email = "emmanuelpeter@gmail.com",
                             FirstName = "Emmanuel",
                             LastName = "Peter",
@@ -154,7 +154,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4059),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9019),
                             Email = "somtoochukwuonuh@gmail.com",
                             FirstName = "Somtoochukwu",
                             LastName = "Onuh",
@@ -164,7 +164,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4060),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9021),
                             Email = "theresa@gmail.com",
                             FirstName = "Theresa",
                             LastName = "Samson",
@@ -174,7 +174,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4061),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9023),
                             Email = "francisjoshua@gmail.com",
                             FirstName = "Francis",
                             LastName = "Joshua",
@@ -184,7 +184,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4062),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9024),
                             Email = "okaforfaith@gmail.com",
                             FirstName = "Faith",
                             LastName = "Okafor",
@@ -194,7 +194,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4063),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9025),
                             Email = "godsonemeka@gmail.com",
                             FirstName = "Godson",
                             LastName = "Emeka",
@@ -204,7 +204,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4064),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9027),
                             Email = "queen@gmail.com",
                             FirstName = "Queen",
                             LastName = "Moses",
@@ -214,7 +214,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4065),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9028),
                             Email = "obygrace@gmail.com",
                             FirstName = "Grace",
                             LastName = "Oby",
@@ -224,7 +224,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4066),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9030),
                             Email = "kingsleyemenike@gmail.com",
                             FirstName = "Kingsley",
                             LastName = "Emenike",
@@ -234,7 +234,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4067),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9032),
                             Email = "joshclem@gmail.com",
                             FirstName = "Joshua",
                             LastName = "Clement",
@@ -244,7 +244,7 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 675, DateTimeKind.Local).AddTicks(4068),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 609, DateTimeKind.Local).AddTicks(9033),
                             Email = "obinnachibueze@gmail.com",
                             FirstName = "Obinna",
                             LastName = "Chibueze",
@@ -276,52 +276,24 @@ namespace ShopsRUs.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 656, DateTimeKind.Local).AddTicks(3742),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 595, DateTimeKind.Local).AddTicks(9391),
                             Name = "Employee",
                             Rate = 0.3m
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 656, DateTimeKind.Local).AddTicks(3896),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 595, DateTimeKind.Local).AddTicks(9590),
                             Name = "Affiliate",
                             Rate = 0.1m
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2021, 10, 12, 0, 5, 47, 656, DateTimeKind.Local).AddTicks(3898),
+                            CreatedAt = new DateTime(2021, 10, 12, 13, 50, 33, 595, DateTimeKind.Local).AddTicks(9592),
                             Name = "Customer",
                             Rate = 0.05m
                         });
-                });
-
-            modelBuilder.Entity("ShopsRUs.Domain.Models.Order", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<float>("DiscountRate")
-                        .HasColumnType("REAL");
-
-                    b.Property<decimal>("ProductAmount")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
-
-                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("ShopsRUs.Domain.Models.Product", b =>
@@ -449,17 +421,6 @@ namespace ShopsRUs.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
-                });
-
-            modelBuilder.Entity("ShopsRUs.Domain.Models.Order", b =>
-                {
-                    b.HasOne("ShopsRUs.Domain.Models.AppUser", "AppUser")
-                        .WithMany()
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
                 });
 
             modelBuilder.Entity("ShopsRUs.Domain.Models.Role", b =>
